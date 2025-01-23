@@ -1,0 +1,11 @@
+{
+  "name": "devops-training",
+  "version": "1.0.0",
+  "description": "Devops training tutoriels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mukesh Sharma",
+  "license": "ISC"
+}
