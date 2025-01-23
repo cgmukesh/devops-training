@@ -27,8 +27,13 @@ app.use(morgan("dev"));
 //     next();
 // })
 
+app.get('/', (req, res) => {
 
-app.use('/api/v1', require('./routers'));
+    res.send('Hello, World! Project using node js');
+    
+});
+
+// app.use('/api/v1', require('./routers'));
 
 
 module.exports = app;

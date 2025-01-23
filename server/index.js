@@ -1,12 +1,12 @@
 const http = require("http");
-require('dotenv').config();
-require('./config/db');
+// require('dotenv').config();
+// require('./config/db');
 
-// const App = require("./app");
+const App = require("./app");
 
 // const App = require("./modals");
 
-const port = process.env.PORT || 3030
+const port = process.env.PORT || 3000
 
 const server = http.createServer(App);
 
